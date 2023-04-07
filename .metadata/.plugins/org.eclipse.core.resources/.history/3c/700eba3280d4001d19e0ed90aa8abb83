@@ -1,0 +1,5 @@
+package com.chatroom.chatroomserver.sockets;
+
+public class ServerWrapper {
+
+}

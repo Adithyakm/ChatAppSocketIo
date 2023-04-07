@@ -1,0 +1,5 @@
+package com.project.chatroom.Models;
+
+public class Messages {
+
+}

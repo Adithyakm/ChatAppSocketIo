@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ChatRoom</title>
+<link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/"></script>
+<script src="/index.js"></script>
+</head>
+<body>
+
+<h1>welcome to chatroom</h1>
+
+</body>
+</html>

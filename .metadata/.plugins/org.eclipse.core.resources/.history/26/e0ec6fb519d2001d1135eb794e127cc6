@@ -1,0 +1,9 @@
+
+$(document).ready(e=>{
+	
+	$("#login").click(()=>{
+		alert("testing")
+	})
+
+}
+)
