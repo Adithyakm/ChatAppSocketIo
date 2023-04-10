@@ -4,6 +4,10 @@ public class Messaging {
 	
 	private String messageSender;
 	private String messageContent;
+	
+	public Messaging() {
+		
+	}
 	public Messaging(String messageSender, String messageContent) {
 		super();
 		this.messageSender = messageSender;

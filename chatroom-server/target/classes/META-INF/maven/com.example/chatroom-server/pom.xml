@@ -13,7 +13,10 @@
   <description>Creating chatroom server with java socket.io</description>
   <properties>
 		<java.version>17</java.version>
+		<maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
   </properties>
+   
   <dependencies>
   <dependency>
     <groupId>io.socket</groupId>
@@ -31,5 +34,49 @@
     <artifactId>jackson-databind</artifactId>
     <version>2.13.3</version>
 </dependency>
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>  
+         <dependency>
+		  <groupId>org.webjars</groupId>
+		  <artifactId>webjars-locator-core</artifactId>
+		</dependency>
+		<dependency>
+		  <groupId>org.webjars</groupId>
+		  <artifactId>sockjs-client</artifactId>
+		  <version>1.0.2</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.webjars</groupId>
+		  <artifactId>stomp-websocket</artifactId>
+		  <version>2.3.3</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.webjars</groupId>
+		  <artifactId>bootstrap</artifactId>
+		  <version>5.0.2</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.webjars</groupId>
+		  <artifactId>jquery</artifactId>
+		  <version>3.1.1-1</version>
+		</dependency> 
+        
  </dependencies>
+ 
+ 	<build>
+		<plugins>
+		     <plugin>
+               	<groupId>org.apache.tomcat.maven</groupId>
+          		<artifactId>tomcat6-maven-plugin</artifactId>
+          		<version>2.2</version>
+        	</plugin>
+			 <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+        	</plugin>
+		</plugins>
+	</build>
 </project>
