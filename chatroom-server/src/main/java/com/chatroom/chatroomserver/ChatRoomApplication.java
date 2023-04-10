@@ -21,7 +21,7 @@ public class ChatRoomApplication {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SpringApplication.run(ChatRoomApplication.class, args);	
+		
 	   SocketIoServer server = SocketIoServlet.getMsocketioserver();
 	   SocketIoNamespace nameSpace = server.namespace("/");
 	   Messaging broadcastMessage = null;
@@ -57,6 +57,7 @@ public class ChatRoomApplication {
 		}
 
 	});
+	   SpringApplication.run(ChatRoomApplication.class, args);	
   }
 
 }
